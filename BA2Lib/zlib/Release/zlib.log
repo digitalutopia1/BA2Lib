@@ -1,0 +1,45 @@
+﻿Build started 11/25/2015 10:36:02 AM.
+     1>Project "F:\Documents\Visual Studio 2013\Projects\BA2Lib\BA2Lib\zlib\zlib.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt adler32.c compress.c crc32.c gzio.c infblock.c infcodes.c inffast.c inflate.c inftrees.c infutil.c uncompr.c zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         gzio.c
+     1>gzio.c(108): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>gzio.c(156): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>gzio.c(201): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>gzio.c(535): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>gzio.c(871): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>gzio.c(872): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>gzio.c(873): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         infblock.c
+         infcodes.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         infutil.c
+         uncompr.c
+         zutil.c
+       Lib:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"F:\Documents\Visual Studio 2013\Projects\BA2Lib\Release\zlib.lib" /NOLOGO /LTCG Release\adler32.obj
+         Release\compress.obj
+         Release\crc32.obj
+         Release\gzio.obj
+         Release\infblock.obj
+         Release\infcodes.obj
+         Release\inffast.obj
+         Release\inflate.obj
+         Release\inftrees.obj
+         Release\infutil.obj
+         Release\uncompr.obj
+         Release\zutil.obj
+         zlib.vcxproj -> F:\Documents\Visual Studio 2013\Projects\BA2Lib\Release\zlib.lib
+     1>Done Building Project "F:\Documents\Visual Studio 2013\Projects\BA2Lib\BA2Lib\zlib\zlib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.65
